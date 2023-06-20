@@ -19,6 +19,7 @@ body {
     border: 1px solid red;
     display: grid;
     place-items: center;
+    /* background-color: red; */
 }
 
 .track {
@@ -32,10 +33,10 @@ body {
     stroke: rgb(59, 56, 56);
     stroke-width: 5;
     stroke-dasharray: 188;
-    stroke-dashoffset: 186;
+    stroke-dashoffset: 188;
     transform: rotate(-90deg);
     transform-origin: center;
-    animation: stroke 2.5s steps(180) forwards;
+    animation: stroke 2.5s steps(188) forwards;
 
 }
 
