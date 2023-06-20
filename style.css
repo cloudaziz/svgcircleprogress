@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.track {
+    stroke: lightgray;
+    stroke-width: 5;
+    fill: transparent;
+}
+
+.progress {
+    fill: none;
+    stroke: rgb(59, 56, 56);
+    stroke-width: 5;
+    stroke-dasharray: 188;
+    stroke-dashoffset: 186;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    animation: stroke 2.5s steps(180) forwards;
+
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
