@@ -17,6 +17,8 @@ body {
     inset: 0;
     margin: auto;
     border: 1px solid red;
+    display: grid;
+    place-items: center;
 }
 
 .track {
@@ -37,8 +39,8 @@ body {
 
 }
 
-@keyframes stroke {
+/* @keyframes stroke {
     100% {
         stroke-dashoffset: 0;
     }
-}
+} */
