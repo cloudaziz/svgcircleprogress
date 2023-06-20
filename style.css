@@ -39,8 +39,8 @@ body {
 
 }
 
-/* @keyframes stroke {
+@keyframes stroke {
     100% {
         stroke-dashoffset: 0;
     }
-} */
+}
